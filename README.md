@@ -1,5 +1,7 @@
 # VERO API CERTIFICATE TOOL PRE ALPHA
 
+[![Run Tests](https://github.com/DIASfi/vero-api-certificate-tool/actions/workflows/on-push.yaml/badge.svg)](https://github.com/DIASfi/vero-api-certificate-tool/actions/workflows/on-push.yaml)
+
 ## Manual test
 
 Initial implementation test with  Vero prodided Private Keys
