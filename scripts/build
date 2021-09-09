@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+./gradlew shadowJar
+
+cat scripts/wrapper.sh app/build/libs/app-all.jar > release/certificate
+chmod +x release/certificate
