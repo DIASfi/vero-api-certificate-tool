@@ -135,5 +135,8 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,gradle
 
+# Project specific
 tmp/**
 release/certificate
+*.log
+*.txt
