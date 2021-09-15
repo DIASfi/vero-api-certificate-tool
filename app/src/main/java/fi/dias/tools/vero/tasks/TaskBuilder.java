@@ -11,8 +11,8 @@ public class TaskBuilder {
         TEST,
         PROD
     };
-    private final String testServiceURL = "https://pkiws-testi.vero.fi/DEV/2017/10/CertificateServices";
-    private final String devServiceURL = "https://pkiws-testi.vero.fi/2017/10/CertificateServices";
+    private final String devServiceURL = "https://pkiws-testi.vero.fi/DEV/2017/10/CertificateServices";
+    private final String testServiceURL = "https://pkiws-testi.vero.fi/2017/10/CertificateServices";
     private final String prodServiceURL = "https://pkiws.vero.fi/2017/10/CertificateServices";
     private TaskBuilder.Environment env;
     protected String serviceURL = null;
@@ -21,7 +21,6 @@ public class TaskBuilder {
     protected String customerName = null;
     protected String transferId = null;
     protected String transferPassword = null;
-    protected String subjectName = null;
     protected String retrievalId = null;
     protected byte[] certificateRequest = null;
     protected KeyStore.PrivateKeyEntry renewRequestSignKeyEntry = null;

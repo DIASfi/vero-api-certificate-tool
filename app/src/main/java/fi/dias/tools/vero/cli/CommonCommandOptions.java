@@ -12,7 +12,13 @@ import java.time.format.DateTimeFormatter;
         optionListHeading = "%nOptions:%n%n",
         commandListHeading = "%nCommands:%n%n")
 public class CommonCommandOptions {
-    @CommandLine.Option(names = {"-e", "--env"}, description = "Supported values: ${COMPLETION-CANDIDATES}")
+//    @CommandLine.Option(names = {"-V", "--version"}, versionHelp = true, description = "display version info")
+//    boolean versionInfoRequested;
+//
+//    @CommandLine.Option(names = {"-h", "--help"}, usageHelp = true, description = "display this help message")
+//    boolean usageHelpRequested;
+
+    @CommandLine.Option(names = {"-e", "--env"}, description = "Supported values: ${COMPLETION-CANDIDATES}. DEV is dedicated for testing this tool it self while using .")
     protected TaskBuilder.Environment environment;
 
     @CommandLine.Option(names = "--customer-id", description = "Customer ID")
