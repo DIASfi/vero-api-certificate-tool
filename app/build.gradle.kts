@@ -44,6 +44,9 @@ dependencies {
     // https://picocli.info/#_add_as_external_dependency
     implementation("info.picocli:picocli:4.6.1")
     annotationProcessor("info.picocli:picocli-codegen:4.6.1")
+
+    // https://github.com/elennick/retry4j#gradle
+    implementation("com.evanlennick:retry4j:0.15.0")
 }
 
 application {
