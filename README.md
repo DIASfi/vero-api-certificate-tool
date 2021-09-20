@@ -25,7 +25,7 @@ $ certificate new -h
 #### Example
 
 ```shell
-$ release/certificate new -v --env="TEST" \
+$ certificate new -v --env="TEST" \
   --customer-id="7017233-8" \
   --customer-name="Testifirma OY" \
   # Password used for all JKS actions \
@@ -48,7 +48,7 @@ $ certificate renew -h
 #### Example
 
 ```shell
-$ release/certificate renew -v --env="TEST" \
+$ certificate renew -v --env="TEST" \
   --customer-id="7017233-8" \
   --customer-name="Testifirma OY" \
   # Password used for all JKS actions \
