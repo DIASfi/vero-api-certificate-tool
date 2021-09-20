@@ -16,11 +16,11 @@ public class KeyStoreUtils {
     private static Logger LOGGER = Logger.getLogger(KeyStoreUtils.class.getName());
 
     private static String privateKeyPrefix(String prefix) {
-        return "private-key-" + prefix;
+        return prefix;
     }
 
     private static String certificatePrefix(String prefix) {
-        return "certificate-" + prefix;
+        return "certificate-only-" + prefix;
     }
 
     private static char[] fallbackToDefaultPassword(String password) {
