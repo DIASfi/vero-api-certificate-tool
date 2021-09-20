@@ -1,6 +1,6 @@
 # Vero API Certificate Tool
 
-This tool is for creating new certificate and renewing them which are needed to interact with Vero API's. 
+This tool is for creating new certificate and renewing them which are needed to interact with Vero API's.
 
 [![Run Tests](https://github.com/DIASfi/vero-api-certificate-tool/actions/workflows/on-push.yaml/badge.svg)](https://github.com/DIASfi/vero-api-certificate-tool/actions/workflows/on-push.yaml)
 
@@ -8,8 +8,9 @@ This tool is for creating new certificate and renewing them which are needed to 
 
 1. Ensure that you running *NIX system and have Java 11+ installed
 2. Download latest executable from [https://github.com/DIASfi/vero-api-certificate-tool/releases](https://github.com/DIASfi/vero-api-certificate-tool/releases)
-3. Add it to your `PATH` or not
-4. Try it `$ certificate --version`
+3. Add execution rights `$ chmod +x certificate`
+4. Add it to your `PATH` or not
+5. Try it `$ certificate -V`
 
 ## Usage
 
