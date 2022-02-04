@@ -71,7 +71,10 @@ tasks {
         verbose = true
         quiet = false
         debug = false
+        keep = true
 
-        wsdl("CertificateServices.wsdl") {}
+        wsdl("CertificateServices.wsdl") {
+            wsdlLocation = "/wsdl/CertificateServices.wsdl"
+        }
     }
 }
