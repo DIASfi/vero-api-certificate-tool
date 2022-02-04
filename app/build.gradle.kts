@@ -57,6 +57,9 @@ application {
 tasks {
 
     shadowJar {
+        append("wsdl/CertificateServices.wsdl")
+        append("wsdl/CertificateServices.xsd")
+        append("wsdl/xmldsig-core-schema.xsd")
         manifest {
             attributes(Pair("Main-Class", application.mainClass))
         }
